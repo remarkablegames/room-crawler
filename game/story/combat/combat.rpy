@@ -1,6 +1,6 @@
 label combat:
 
-    scene bg plain with dissolve
+    $ levels.scene(wins)
 
     show screen player_stats
 

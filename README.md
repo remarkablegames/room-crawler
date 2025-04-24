@@ -18,7 +18,8 @@ Play the game on:
 
 ### Art
 
-- [Uncle Mugen](https://lemmasoft.renai.us/forums/viewtopic.php?t=17302)
+- [FantasyLandscapes](https://itch.io/c/3093764/pixel-art)
+- [Liminal Games](https://liminal-space-dev.itch.io/free-horror-school-vn-backgrounds)
 
 ### Audio
 

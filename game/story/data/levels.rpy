@@ -36,4 +36,12 @@ init python:
 
                 return level
 
+        def scene(self, level: int) -> dict:
+            """
+            Start level.
+            """
+            renpy.scene()
+            renpy.show(f"bg hall {level % 10}")
+            renpy.with_statement(dissolve)
+
 default levels = Levels()

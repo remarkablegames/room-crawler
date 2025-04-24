@@ -2,8 +2,8 @@
     "0": {
         "enemies": [
             {
-                "name": "Enemy",
-                "image": "boy",
+                "name": "Skeleton Knight",
+                "image": "skeleton",
                 "health": 10,
                 "attack_min": 1,
                 "attack_max": 2,
