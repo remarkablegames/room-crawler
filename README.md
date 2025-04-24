@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/remarkablegames/renpy-roguelike/master/game/gui/window_icon.png" alt="Ren'Py Roguelike">
+  <img src="https://raw.githubusercontent.com/remarkablegames/room-crawler/master/game/gui/window_icon.png" alt="Room Crawler">
 </p>
 
-# Ren'Py Roguelike
+# Room Crawler
 
-![release](https://img.shields.io/github/v/release/remarkablegames/renpy-roguelike)
-[![build](https://github.com/remarkablegames/renpy-roguelike/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/renpy-roguelike/actions/workflows/build.yml)
-[![lint](https://github.com/remarkablegames/renpy-roguelike/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/renpy-roguelike/actions/workflows/lint.yml)
+![release](https://img.shields.io/github/v/release/remarkablegames/room-crawler)
+[![build](https://github.com/remarkablegames/room-crawler/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/room-crawler/actions/workflows/build.yml)
+[![lint](https://github.com/remarkablegames/room-crawler/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/room-crawler/actions/workflows/lint.yml)
 
-Ren'Py Roguelike Template.
+🚪 Room Crawler
 
 Play the game on:
 
-- [remarkablegames](https://remarkablegames.org/renpy-roguelike)
+- [remarkablegames](https://remarkablegames.org/room-crawler)
 
 ## Credits
 
@@ -43,8 +43,8 @@ sudo ln -sf "$(realpath renpy-sdk/renpy.sh)" /usr/local/bin/renpy
 Clone the repository to the `Projects Directory`:
 
 ```sh
-git clone https://github.com/remarkablegames/renpy-roguelike.git
-cd renpy-roguelike
+git clone https://github.com/remarkablegames/room-crawler.git
+cd room-crawler
 ```
 
 ## Run
