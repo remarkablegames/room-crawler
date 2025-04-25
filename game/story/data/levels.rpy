@@ -15,16 +15,18 @@ init python:
             except KeyError:
                 level = { "enemies": [] }
 
-                enemies_count = 1 if wins < 3 else 2
+                enemies_count = 1 if renpy.random.random() < 0.5 else 2
+                enemies = ["Goblin", "Minotaur", "Skeleton Knight", "Skeleton Soldier"]
 
                 while enemies_count > 0:
-                    girl = renpy.random.random() < 0.5
+                    enemy_name = renpy.random.choice(enemies)
+                    enemies.remove(enemy_name)
                     attack_min = round(wins * (1 + renpy.random.random())) + 1
                     heal_min = round(wins * (1 + renpy.random.random())) + 1
 
                     level["enemies"].append({
-                        "name": "Girl" if girl else "Boy",
-                        "image": "girl" if girl else "boy",
+                        "name": enemy_name,
+                        "image": enemy_name.lower(),
                         "health": round(5 * (wins + 1) * (1 + renpy.random.random())),
                         "attack_min": attack_min,
                         "attack_max": attack_min + wins + 1,
