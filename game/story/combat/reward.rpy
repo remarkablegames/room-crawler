@@ -7,7 +7,7 @@ label reward:
     $ reward_heal = renpy.random.randint(1, 3 + wins // 2)
 
     menu:
-        "Choose your reward (remaining: [rewards])."
+        "Claim your reward (remaining: [rewards])."
 
         "Reroll rewards (-$[wins])" if money >= wins:
             $ money -= wins
