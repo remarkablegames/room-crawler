@@ -23,6 +23,8 @@ label player_attack_end(enemy = None, enemy_index = 0):
     if not enemy:
         jump player_turn
 
+    play sound punch
+
     $ player.energy -= player.skills["attack"].energy
     $ enemy.health -= player.attack
     $ renpy.show(enemy.image, at_list=[shake])

@@ -1,5 +1,7 @@
 label combat:
 
+    queue music battle
+
     $ levels.scene(wins)
 
     show screen player_stats

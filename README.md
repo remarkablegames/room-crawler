@@ -24,6 +24,7 @@ Play the game on:
 ### Audio
 
 - [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
+- [Punch Sound Effects](https://pixabay.com/sound-effects/punch-sound-effects-28649/)
 
 ## Prerequisites
 
