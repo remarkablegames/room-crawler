@@ -4,7 +4,7 @@ init python:
 label shop:
 
     menu:
-        "What would you like to do?"
+        "What do you want to buy?"
 
         "Upgrade “Attack” to  “Heavy Attack” (-$5)
         {tooltip}Attack with a 20%% chance to stun the enemy" if player.has_skill("attack") and "stun" not in player.skills["attack"].tags and money >= 5:
@@ -62,5 +62,5 @@ label shop:
 
             jump reward
 
-        "Battle":
-            jump combat
+        "Back":
+            jump explore

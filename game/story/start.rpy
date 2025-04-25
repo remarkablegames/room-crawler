@@ -3,4 +3,12 @@ define config.rollback_enabled = False
 
 label start:
 
-    jump combat
+    $ room = True
+
+    scene bg room 0 with fade
+
+    "Where am I?"
+    "I was just dozing off in class."
+    "I should get out of here."
+
+    jump explore
