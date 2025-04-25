@@ -75,10 +75,10 @@ label explore_room:
         $ random = renpy.random.random()
 
         menu:
-            "What do you want to do?"
+            "Should you approach the shiny object?"
 
-            "Approach the object":
-                "You move towards the object..."
+            "Approach it":
+                "You move towards the shiny object..."
 
                 if random < 0.1:
                     "It’s a trap!"
@@ -112,8 +112,8 @@ label explore_room:
 
                     pass
 
-            "Ignore the object":
-                "You decided to stay away from the object."
+            "Ignore it":
+                "You decided to avoid the shiny object."
 
                 pass
 

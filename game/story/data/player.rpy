@@ -115,6 +115,7 @@ init python:
             if self.health <= health_cost:
                 narrator("You don’t have enough health.")
             else:
+                renpy.sound.play("sound/powerup.ogg")
                 self.health -= health_cost
                 self.energy += 1
 
