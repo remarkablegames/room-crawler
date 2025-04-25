@@ -22,13 +22,14 @@ label win:
 
     "You earned $[loot] + $[interest] (interest)."
 
-    stop music fadeout 1
-
     if wins % 3 == 1:
+        stop music fadeout 1
+
         $ rewards += 1
 
         jump reward
 
     else:
+        stop music fadeout 1
 
         jump explore

@@ -5,6 +5,8 @@ label start:
 
     $ room = True
 
+    play music eerie fadein 1
+
     scene bg room 0 with fade
 
     "Where am I?"

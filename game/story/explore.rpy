@@ -3,6 +3,8 @@ default explore_room = -1
 
 label explore:
 
+    queue music eerie
+
     menu:
         "What do you want to do?"
 
@@ -36,6 +38,7 @@ label hall:
             "The atmosphere feels heavy...",
             "The air feels chilly...",
             "It feels ominous...",
+            "You can feel an eerie presence...",
             "It’s a little quiet here...",
             "Something doesn’t feel right...",
         ]))
@@ -110,7 +113,7 @@ label explore_room:
                     pass
 
             "Ignore the object":
-                "You decide to stay away from the object."
+                "You decided to stay away from the object."
 
                 pass
 
