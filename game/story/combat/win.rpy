@@ -12,7 +12,7 @@ label win:
     stop music fadeout 1
     queue music win1 volume 0.7
 
-    "You survived with your life intact."
+    "You survived!"
 
     $ player.reset()
     $ wins += 1

@@ -129,6 +129,7 @@ init python:
             if self.energy < energy_cost:
                 narrator("You don’t have enough energy.")
             else:
+                renpy.sound.play("sound/heartbeat.ogg")
                 self.energy -= energy_cost
                 self.attack_multiplier *= 2
 
