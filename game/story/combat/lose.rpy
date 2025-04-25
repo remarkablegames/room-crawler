@@ -4,7 +4,7 @@ label lose:
     hide screen enemy_stats0
     hide screen enemy_stats1
 
-    "You are defeated."
+    "You are dead."
 
     scene black with fade
 

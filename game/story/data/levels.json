@@ -3,7 +3,6 @@
         "enemies": [
             {
                 "name": "Goblin",
-                "image": "goblin",
                 "health": 10,
                 "attack_min": 1,
                 "attack_max": 2,
@@ -17,7 +16,6 @@
         "enemies": [
             {
                 "name": "Skeleton Soldier",
-                "image": "skeleton soldier",
                 "health": 20,
                 "attack_min": 2,
                 "attack_max": 4,
@@ -31,7 +29,6 @@
         "enemies": [
             {
                 "name": "Goblin",
-                "image": "goblin",
                 "health": 15,
                 "attack_min": 2,
                 "attack_max": 3,
@@ -40,12 +37,77 @@
             },
             {
                 "name": "Skeleton Soldier",
-                "image": "skeleton soldier",
                 "health": 25,
                 "attack_min": 2,
                 "attack_max": 4,
                 "heal_min": 1,
                 "heal_max": 3
+            }
+        ]
+    },
+
+    "3": {
+        "enemies": [
+            {
+                "name": "Skeleton Knight",
+                "health": 50,
+                "attack_min": 3,
+                "attack_max": 6,
+                "heal_min": 2,
+                "heal_max": 4
+            }
+        ]
+    },
+
+    "4": {
+        "enemies": [
+            {
+                "name": "Skeleton Knight",
+                "health": 50,
+                "attack_min": 3,
+                "attack_max": 6,
+                "heal_min": 2,
+                "heal_max": 4
+            },
+            {
+                "name": "Skeleton Soldier",
+                "health": 25,
+                "attack_min": 2,
+                "attack_max": 4,
+                "heal_min": 1,
+                "heal_max": 3
+            }
+        ]
+    },
+
+    "5": {
+        "enemies": [
+            {
+                "name": "Minotaur",
+                "health": 75,
+                "attack_min": 3,
+                "attack_max": 6
+            }
+        ]
+    },
+
+    "6": {
+        "enemies": [
+            {
+                "name": "Goblin",
+                "health": 30,
+                "attack_min": 3,
+                "attack_max": 6,
+                "heal_min": 3,
+                "heal_max": 6
+            },
+            {
+                "name": "Skeleton Soldier",
+                "health": 45,
+                "attack_min": 3,
+                "attack_max": 6,
+                "heal_min": 3,
+                "heal_max": 6
             }
         ]
     }

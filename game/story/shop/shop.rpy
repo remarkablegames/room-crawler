@@ -46,9 +46,9 @@ label shop:
 
             jump shop
 
-        "Learn “Rage” (-$5)
-        {tooltip}Double your attack for 1 energy" if not player.has_skill("rage") and money >= 5:
-            $ money -= 5
+        "Learn “Rage” (-$7)
+        {tooltip}Double your attack for 1 energy" if not player.has_skill("rage") and money >= 7:
+            $ money -= 7
             $ player.toggle_skill("rage", True)
             $ player.attack_min = player.attack_max
 
@@ -56,7 +56,7 @@ label shop:
 
             jump shop
 
-        "Get a reward (-$[floor(wins * 1.5)])" if money >= floor(wins * 1.5):
+        "Get a reward (-$[floor(wins * 1.5)])" if wins > 1 and money >= floor(wins * 1.5):
             $ money -= floor(wins * 1.5)
             $ rewards += 1
 

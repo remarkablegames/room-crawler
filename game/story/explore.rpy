@@ -38,7 +38,7 @@ label hall:
             "The atmosphere feels heavy...",
             "The air feels chilly...",
             "It feels ominous...",
-            "You can feel an eerie presence...",
+            "There’s an eerie presence...",
             "It’s a little quiet here...",
             "Something doesn’t feel right...",
         ]))
@@ -66,7 +66,7 @@ label explore_room:
 
     $ explore_room = wins
 
-    if renpy.random.random() < 0.5:
+    if not wins or renpy.random.random() < 0.4:
         "There’s nothing in this room."
 
     else:
@@ -101,7 +101,7 @@ label explore_room:
 
                     jump reward
 
-                elif random < 0.7:
+                elif random < 0.8:
                     $ loot = renpy.random.randint(round(wins / 2) + 1, wins + 1)
                     $ money += loot
 
