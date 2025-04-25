@@ -2,13 +2,50 @@
     "0": {
         "enemies": [
             {
-                "name": "Skeleton Soldier",
-                "image": "skeleton soldier",
+                "name": "Goblin",
+                "image": "goblin",
                 "health": 10,
                 "attack_min": 1,
                 "attack_max": 2,
                 "heal_min": 1,
                 "heal_max": 2
+            }
+        ]
+    },
+
+    "1": {
+        "enemies": [
+            {
+                "name": "Skeleton Soldier",
+                "image": "skeleton soldier",
+                "health": 20,
+                "attack_min": 2,
+                "attack_max": 4,
+                "heal_min": 1,
+                "heal_max": 3
+            }
+        ]
+    },
+
+    "2": {
+        "enemies": [
+            {
+                "name": "Goblin",
+                "image": "goblin",
+                "health": 15,
+                "attack_min": 2,
+                "attack_max": 3,
+                "heal_min": 1,
+                "heal_max": 3
+            },
+            {
+                "name": "Skeleton Soldier",
+                "image": "skeleton soldier",
+                "health": 25,
+                "attack_min": 2,
+                "attack_max": 4,
+                "heal_min": 1,
+                "heal_max": 3
             }
         ]
     }
