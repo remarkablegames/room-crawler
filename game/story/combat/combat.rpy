@@ -1,5 +1,6 @@
 label combat:
 
+    stop music fadeout 1
     queue music battle
 
     $ levels.scene(wins)

@@ -9,6 +9,9 @@ default wins = 0
 
 label win:
 
+    stop music fadeout 1
+    queue music win1 volume 0.7
+
     "You won the battle!"
 
     $ player.reset()
