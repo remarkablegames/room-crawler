@@ -13,6 +13,7 @@
 Play the game on:
 
 - [remarkablegames](https://remarkablegames.org/room-crawler)
+- [itch.io](https://remarkablegames.itch.io/room-crawler)
 
 ## Credits
 
