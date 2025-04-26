@@ -88,7 +88,7 @@ label explore_room:
                 elif random < 0.2:
                     "It’s a trap!"
 
-                    $ health -= health // 2
+                    $ player.health -= player.health // 2
 
                     "You lose half your health."
 
