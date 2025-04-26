@@ -14,7 +14,7 @@ init python:
 
             except KeyError:
                 level = { "enemies": [] }
-                enemies = ["Goblin", "Minotaur", "Skeleton Knight", "Skeleton Soldier"]
+                enemies_copy = ENEMIES.copy()
                 random = renpy.random.random()
 
                 if random < 0.3:
@@ -25,8 +25,8 @@ init python:
                     enemies_count = 1
 
                 while enemies_count > 0:
-                    enemy_name = renpy.random.choice(enemies)
-                    enemies.remove(enemy_name)
+                    enemy_name = renpy.random.choice(enemies_copy)
+                    enemies_copy.remove(enemy_name)
                     attack_min = round(wins * (1 + renpy.random.random())) + 1
                     heal_min = round(wins * (1 + renpy.random.random())) + 1
 
