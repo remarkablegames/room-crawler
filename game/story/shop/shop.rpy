@@ -1,6 +1,3 @@
-init python:
-    from math import floor
-
 label shop:
 
     menu:
@@ -56,8 +53,8 @@ label shop:
 
             jump shop
 
-        "Get a reward (-$[floor(wins * 1.5)])" if wins > 1 and money >= floor(wins * 1.5):
-            $ money -= floor(wins * 1.5)
+        "Get a reward (-$[wins])" if wins > 2 and money >= wins:
+            $ money -= wins
             $ rewards += 1
 
             jump reward

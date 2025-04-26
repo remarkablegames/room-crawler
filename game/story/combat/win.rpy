@@ -16,7 +16,7 @@ label win:
 
     $ player.reset()
     $ wins += 1
-    $ interest = ceil(money * 0.2)
+    $ interest = ceil(money * 0.4)
     $ loot = renpy.random.randint(wins, round(wins * 1.5) + 1)
     $ money += loot + interest
 

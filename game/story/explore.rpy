@@ -41,6 +41,7 @@ label hall:
             "There’s an eerie presence...",
             "It’s a little quiet here...",
             "Something doesn’t feel right...",
+            "You can feel your hair standing up...",
         ]))
 
     "Something is approaching!"
@@ -57,7 +58,10 @@ label room:
         narrator(renpy.random.choice([
             "This room is unsettling...",
             "Where is everybody?",
+            "Where is everyone?",
             "It’s quiet in this room...",
+            "Hello, is anyone there?",
+            "What is this place?",
         ]))
 
     jump explore
@@ -66,7 +70,7 @@ label explore_room:
 
     $ explore_room = wins
 
-    if not wins or renpy.random.random() < 0.4:
+    if not wins or renpy.random.random() < 0.3:
         "There’s nothing in this room."
 
     else:

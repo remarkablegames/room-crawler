@@ -144,7 +144,7 @@
     "8": {
         "enemies": [
             {
-                "name": "Goblin",
+                "name": "Skeleton Soldier",
                 "health": 50,
                 "attack_min": 3,
                 "attack_max": 6,
@@ -159,7 +159,7 @@
             },
             {
                 "name": "Goblin",
-                "health": 50,
+                "health": 35,
                 "attack_min": 3,
                 "attack_max": 6,
                 "heal_min": 3,
