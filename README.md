@@ -10,6 +10,8 @@
 
 🚪 Room Crawler is a roguelike RPG simulator.
 
+This game was made for [Gamedev.js Jam 2025](https://itch.io/jam/gamedevjs-2025), which the theme was `Balance`. The game was bootstrapped from [renpy-roguelike](https://github.com/remarkablegames/renpy-roguelike).
+
 Play the game on:
 
 - [remarkablegames](https://remarkablegames.org/room-crawler)
