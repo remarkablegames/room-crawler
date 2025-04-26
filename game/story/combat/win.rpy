@@ -12,7 +12,7 @@ label win:
     stop music fadeout 1
     queue music win1 volume 0.7
 
-    "You survived!"
+    "You survived the encounter!"
 
     $ player.reset()
     $ wins += 1
@@ -22,7 +22,10 @@ label win:
 
     "You earned $[loot] + $[interest] (interest)."
 
-    if wins % 3 == 1:
+    if wins == 10:
+        jump escape
+
+    elif wins % 3 == 1:
         stop music fadeout 1
 
         $ rewards += 1

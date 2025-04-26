@@ -1,5 +1,5 @@
 ﻿label end:
 
-    "You survived {b}[wins]{/b} battles."
+    "You survived {b}[wins]{/b} encounters."
 
     return
