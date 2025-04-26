@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/remarkablegames/room-crawler/master/game/gui/window_icon.png" alt="Room Crawler">
+  <img src="https://raw.githubusercontent.com/remarkablegames/room-crawler/refs/heads/master/web-presplash.jpg" width="600px" alt="Room Crawler">
 </p>
 
 # Room Crawler
