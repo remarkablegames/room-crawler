@@ -8,7 +8,7 @@
 [![build](https://github.com/remarkablegames/room-crawler/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/room-crawler/actions/workflows/build.yml)
 [![lint](https://github.com/remarkablegames/room-crawler/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/room-crawler/actions/workflows/lint.yml)
 
-🚪 Room Crawler
+🚪 Room Crawler is a roguelike RPG simulator.
 
 Play the game on:
 
