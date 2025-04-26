@@ -104,10 +104,93 @@
             {
                 "name": "Skeleton Soldier",
                 "health": 45,
+                "attack_min": 4,
+                "attack_max": 8,
+                "heal_min": 4,
+                "heal_max": 8
+            }
+        ]
+    },
+
+    "7": {
+        "enemies": [
+            {
+                "name": "Skeleton Soldier",
+                "health": 50,
+                "attack_min": 4,
+                "attack_max": 8,
+                "heal_min": 4,
+                "heal_max": 8
+            },
+            {
+                "name": "Skeleton Knight",
+                "health": 75,
+                "attack_min": 5,
+                "attack_max": 10,
+                "heal_min": 5,
+                "heal_max": 10
+            },
+            {
+                "name": "Goblin",
+                "health": 35,
                 "attack_min": 3,
                 "attack_max": 6,
                 "heal_min": 3,
                 "heal_max": 6
+            }
+        ]
+    },
+
+    "8": {
+        "enemies": [
+            {
+                "name": "Goblin",
+                "health": 50,
+                "attack_min": 3,
+                "attack_max": 6,
+                "heal_min": 3,
+                "heal_max": 6
+            },
+            {
+                "name": "Minotaur",
+                "health": 100,
+                "attack_min": 3,
+                "attack_max": 9
+            },
+            {
+                "name": "Goblin",
+                "health": 50,
+                "attack_min": 3,
+                "attack_max": 6,
+                "heal_min": 3,
+                "heal_max": 6
+            }
+        ]
+    },
+
+    "9": {
+        "enemies": [
+            {
+                "name": "Skeleton Soldier",
+                "health": 50,
+                "attack_min": 4,
+                "attack_max": 8,
+                "heal_min": 4,
+                "heal_max": 8
+            },
+            {
+                "name": "Minotaur",
+                "health": 200,
+                "attack_min": 3,
+                "attack_max": 9
+            },
+            {
+                "name": "Skeleton Knight",
+                "health": 75,
+                "attack_min": 5,
+                "attack_max": 10,
+                "heal_min": 5,
+                "heal_max": 10
             }
         ]
     }

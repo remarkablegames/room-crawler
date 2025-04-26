@@ -10,7 +10,7 @@ label start:
     scene bg room 0 with fade
 
     "Where am I?"
-    "I was just dozing off in class."
+    "I remember dozing off in class."
     "I should get out of here."
 
     jump explore
