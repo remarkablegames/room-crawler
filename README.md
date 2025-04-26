@@ -8,7 +8,7 @@
 [![build](https://github.com/remarkablegames/room-crawler/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/room-crawler/actions/workflows/build.yml)
 [![lint](https://github.com/remarkablegames/room-crawler/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/room-crawler/actions/workflows/lint.yml)
 
-🚪 Room Crawler is a roguelike RPG simulator.
+🚪 Room Crawler is a roguelike RPG turn-based combat.
 
 This game was made for [Gamedev.js Jam 2025](https://itch.io/jam/gamedevjs-2025), which the theme was `Balance`. The game was bootstrapped from [renpy-roguelike](https://github.com/remarkablegames/renpy-roguelike).
 
