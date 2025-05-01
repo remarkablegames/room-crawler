@@ -16,7 +16,7 @@
         "enemies": [
             {
                 "name": "Skeleton Soldier",
-                "health": 20,
+                "health": 25,
                 "attack_min": 2,
                 "attack_max": 4,
                 "heal_min": 1,
