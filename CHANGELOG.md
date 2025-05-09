@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/remarkablegames/room-crawler/compare/v1.0.0...v1.0.1) (2025-05-03)
+
+
+### Bug Fixes
+
+* **combat:** generate player RNG at the start of player turn ([3befb30](https://github.com/remarkablegames/room-crawler/commit/3befb30dd7dcb993eb81cca840f28a13af2a2ad9))
+* **shop:** allow overheal purchase if player has heal ([0817ece](https://github.com/remarkablegames/room-crawler/commit/0817ececea5787b31c1e4e1312e51df784540057))
+
 ## [1.0.0](https://github.com/remarkablegames/room-crawler/tree/v1.0.0) (2025-04-26)
 
 ### Features
