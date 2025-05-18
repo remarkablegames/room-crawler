@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/remarkablegames/room-crawler/compare/v1.0.1...v1.0.2) (2025-05-18)
+
+
+### Bug Fixes
+
+* **combat:** show text hint during player attack ([a5d74b1](https://github.com/remarkablegames/room-crawler/commit/a5d74b181953c648f2fd5f5769b0b83f11d8775a))
+
 ## [1.0.1](https://github.com/remarkablegames/room-crawler/compare/v1.0.0...v1.0.1) (2025-05-03)
 
 
