@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/remarkablegames/room-crawler/compare/v1.0.2...v1.1.0) (2025-05-25)
+
+
+### Features
+
+* **combat:** attack without select if there is 1 enemy alive ([57d0754](https://github.com/remarkablegames/room-crawler/commit/57d0754edc374cf8e34649dbeea00f5eefa88daa))
+
 ## [1.0.2](https://github.com/remarkablegames/room-crawler/compare/v1.0.1...v1.0.2) (2025-05-18)
 
 
