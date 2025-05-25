@@ -1,5 +1,5 @@
 screen select_enemy():
-    if not wins:
+    if wins < 8:
         text "Select enemy:"
 
     for enemy_index, enemy in enumerate(enemies.enemies):
@@ -14,6 +14,11 @@ screen select_enemy():
 label player_attack:
 
     window hide
+
+    if enemies.count_alive() == 1:
+        call player_attack_end(enemies.get_alive())
+
+        jump player_turn
 
     show screen select_enemy
 
