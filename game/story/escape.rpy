@@ -13,7 +13,7 @@ label escape:
         "Escape":
             jump escaped
 
-        "Remain":
+        "Stay":
             "You decided to stay."
 
             jump explore

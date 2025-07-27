@@ -1,5 +1,5 @@
 screen select_enemy():
-    if wins < 8:
+    if wins < 7:
         text "Select enemy:"
 
     for enemy_index, enemy in enumerate(enemies.enemies):

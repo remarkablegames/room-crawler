@@ -1,13 +1,17 @@
 init python:
     from math import ceil
 
+
 default money = 0
-default loot = 0
-default interest = 0
 default rewards = 0
 default wins = 0
 
+
 label win:
+
+    hide screen enemy_stats0
+    hide screen enemy_stats1
+    hide screen enemy_stats2
 
     stop music fadeout 1
     queue music win1 volume 0.7
