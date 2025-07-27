@@ -16,14 +16,13 @@ label win:
     stop music fadeout 1
     queue music win1 volume 0.7
 
-    "You survived the encounter!"
-
     $ player.reset()
     $ wins += 1
     $ interest = ceil(money * 0.4)
     $ loot = renpy.random.randint(wins, round(wins * 1.5) + 1)
     $ money += loot + interest
 
+    "You survived the encounter!"
     "You earned $[loot] + $[interest] (interest)."
 
     if wins == 10:
