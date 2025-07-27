@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.1](https://github.com/remarkablegames/room-crawler/compare/v1.1.0...v1.1.1) (2025-07-27)
+
+
+### Bug Fixes
+
+* **combat:** hide enemy stats in win ([97f5493](https://github.com/remarkablegames/room-crawler/commit/97f5493ece8ea7b1cadd5604493cbd8dff29197c))
+
+
+### Performance Improvements
+
+* **images:** compress bg and enemies ([7f5466a](https://github.com/remarkablegames/room-crawler/commit/7f5466ab90d8f05c7e013183e0fccbf31cce38d8))
+
 ## [1.1.0](https://github.com/remarkablegames/room-crawler/compare/v1.0.2...v1.1.0) (2025-05-25)
 
 
