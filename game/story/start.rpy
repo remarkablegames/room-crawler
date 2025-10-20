@@ -1,5 +1,6 @@
 label start:
 
+    $ quick_menu = False # hide bottom menu
     $ room = True
 
     play music eerie fadein 1
