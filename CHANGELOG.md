@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/remarkablegames/room-crawler/compare/v1.1.1...v1.2.0) (2025-10-20)
+
+
+### Features
+
+* **start:** disable quick_menu ([67b484b](https://github.com/remarkablegames/room-crawler/commit/67b484b91988e2f77e9c335060e759f134386b48))
+
 ## [1.1.1](https://github.com/remarkablegames/room-crawler/compare/v1.1.0...v1.1.1) (2025-07-27)
 
 
