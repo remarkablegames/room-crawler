@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/remarkablegames/room-crawler/compare/v1.2.0...v1.2.1) (2025-10-26)
+
+
+### Build System
+
+* **icon:** add Windows and Macintosh icons ([1dcc337](https://github.com/remarkablegames/room-crawler/commit/1dcc337d5b4dba73fe7f24801994c82ebc37cd1a))
+
 ## [1.2.0](https://github.com/remarkablegames/room-crawler/compare/v1.1.1...v1.2.0) (2025-10-20)
 
 
