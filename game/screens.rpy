@@ -219,11 +219,7 @@ screen choice(items):
                 textbutton caption[0]:
                     action i.action
                     tooltip caption[1]
-
-    $ tooltip = GetTooltip()
-
-    if tooltip:
-        text "[tooltip]"
+    use tooltip
 
 
 style choice_vbox is vbox

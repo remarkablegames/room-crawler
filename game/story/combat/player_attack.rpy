@@ -1,6 +1,8 @@
 screen select_enemy():
     if wins < 7:
-        text "Select enemy:"
+        frame:
+            background Solid((0, 0, 0, 100))
+            text "Select enemy:"
 
     for enemy_index, enemy in enumerate(enemies.enemies):
         if enemy.health > 0:
@@ -10,6 +12,7 @@ screen select_enemy():
                 hover f"enemies/{enemy.image} hover.png"
                 at position(enemies.xalign_position(enemy))
                 action Call("player_attack_end", enemy, enemy_index)
+
 
 label player_attack:
 
@@ -24,7 +27,8 @@ label player_attack:
 
     pause
 
-label player_attack_end(enemy = None, enemy_index = 0):
+
+label player_attack_end(enemy=None, enemy_index=0):
 
     hide screen select_enemy
 
