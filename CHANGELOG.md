@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/remarkablegames/room-crawler/compare/v1.2.1...v1.3.0) (2025-10-27)
+
+
+### Features
+
+* **screens:** style tooltip and tidy screens ([2dcbf99](https://github.com/remarkablegames/room-crawler/commit/2dcbf992162e0acddff486bbd8034d6cb83fd4da))
+
 ## [1.2.1](https://github.com/remarkablegames/room-crawler/compare/v1.2.0...v1.2.1) (2025-10-26)
 
 
