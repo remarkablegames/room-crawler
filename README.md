@@ -4,7 +4,7 @@
 
 # Room Crawler
 
-![release](https://img.shields.io/github/v/release/remarkablegames/room-crawler)
+[![release](https://img.shields.io/github/v/release/remarkablegames/room-crawler)](https://github.com/remarkablegames/room-crawler/releases)
 [![build](https://github.com/remarkablegames/room-crawler/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/room-crawler/actions/workflows/build.yml)
 [![lint](https://github.com/remarkablegames/room-crawler/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/room-crawler/actions/workflows/lint.yml)
 
