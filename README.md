@@ -13,6 +13,7 @@
 Play in browser:
 
 - [itch.io](https://remarkablegames.itch.io/room-crawler)
+- [Wavedash](https://wavedash.com/games/room-crawler)
 - [remarkablegames](https://remarkablegames.org/room-crawler)
 
 Or download:
