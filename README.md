@@ -8,11 +8,9 @@
 [![build](https://github.com/remarkablegames/room-crawler/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/room-crawler/actions/workflows/build.yml)
 [![lint](https://github.com/remarkablegames/room-crawler/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/room-crawler/actions/workflows/lint.yml)
 
-🚪 <kbd>Room Crawler</kbd> is a roguelike RPG turn-based combat.
+🚪 <kbd>Room Crawler</kbd> is a roguelike RPG with turn-based combat.
 
-This game was made for [Gamedev.js Jam 2025](https://itch.io/jam/gamedevjs-2025), which the theme was **Balance**.
-
-Play the game:
+Play in browser:
 
 - [itch.io](https://remarkablegames.itch.io/room-crawler)
 - [remarkablegames](https://remarkablegames.org/room-crawler)
@@ -24,6 +22,15 @@ Or download:
 - [Linux](https://github.com/remarkablegames/room-crawler/releases/latest/download/pc.zip)
 
 Read the [blog post](https://remarkablegames.org/posts/room-crawler/).
+
+## Features
+
+- **Roguelike turn-based combat** — fight enemies in sequential encounters using energy-based actions.
+- **Exploration** — move between rooms and the hall, each with randomized atmospheric descriptions.
+- **Progression** — enemies and difficulty scale as you survive more encounters.
+- **Skills** — unlock and upgrade abilities that change how you fight, heal, and manage energy.
+- **Economy** — earn money from combat and exploration, then spend it in the shop or invest it for rewards.
+- **Replayability** — randomized loot, encounters, and rewards make each run different.
 
 ## Credits
 
